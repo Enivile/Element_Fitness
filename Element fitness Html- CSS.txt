@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Element Fitness</title>
+	<link rel="stylesheet" type="text/css" href="Element_Fitness.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+</head>
+<body>
+	<br>
+	<br>
+	<ul id="nav">
+		<li class="nav-home-li"><a class="nav-home" href="#" style="font-weight: bold; font-family: Ariel;margin-left: 114px;">Element</a>
+		</li>
+		<li class="nav-home-li"><a class="nav-home" href="#" style="">Fitnesslink</li>
+		<li class="nav-link-li"><a class="nav-link" href="#" style="margin-left: 32px;">Home</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Startup</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Coaching</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Ebook</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Library</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Contact</a></li>
+		<li class="nav-link-li"><a class="nav-link" href="#" >Article</a></li>
+		<li>
+			<a href="https://twitter.com/" target="_blank" style="margin-left: 90px;"><img class="nav-img" src="./Images/twitter-logo.png" /></a>
+		</li>
+		<li><a href="https://web.facebook.com/" target="_blank"><img class="nav-img" src="./Images/facebook.png"></a></li>
+		<li><a href="https://www.youtube.com/" target="_blank"><img class="nav-img" src="./Images/youtube-logo.png"></a></li>
+		<li><a href="https://mail.google.com/mail" target="_blank"><img class="nav-img" src="./Images/gmail-logo.png"></a></li>
+		<li><a href="https://www.instagram.com/?hl=en" target="_blank"><img class="nav-img" src="./Images/instagram-logo.png"></a></li>
+	</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav{
+	list-style-type: none;
+	margin: 0;
+	background-color:#333;
+	color: white;
+	padding-bottom: 16px;
+	padding-top: 6px;
+
+}
+.nav-link{
+	color:#b5b5b5;
+	text-decoration: none;
+	background-color: #626262;
+	padding: 15px 20px;
+	position: relative;
+	overflow: auto;
+	margin: 0px;
+}
+.nav-link-li:first-of-type{
+	margin-left: 30px;
+}
+.nav-link-li:last-of-type{
+	margin-right: 0;
+}
+.nav-link-li:before{
+	content: '';
+	position:absolute;
+	background:none;
+	border-left: 20px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 40px solid transparent;
+	left: -20px;
+	top:0;
+}
+.nav-link-li:after{
+	content: '';
+	position: absolute;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid transparent;
+	top: 0;
+	width: 0;
+	height: 0;
+	
+}
+.nav-img{
+	width: 20px;
+	height: 20px;
+	border-radius: 40%;
+	margin-top: 5px;
+	overflow: auto;
+}
+#nav li{
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+}
+.nav-home{
+	color:white;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.nav-home:first-of-type{
+	margin-left: 0px;
+}

@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Element Fitness</title>
+ 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0 " />
+ 	<link rel="stylesheet" type="text/css" href="Element_Fitness.css" />
+ 	<script src="Element_Fitness.js"></script>
+ </head>
+ <body>
+ 	<div>
+ 		<img id="set" src="./Images/Settings.png" alt="Navigation Bar" onclick="fun()">
+
+ 		<div class="navi-bar">
+
+ 			<ul id="nav-area">
+ 				<li class="nav-home"><a href="#" >Element</a></li>
+				<li class="nav-home"><a href="#" >Fitnesslink</li>
+				
+				<li class="nav-link"><a href="#" >Home</a></li>
+				<li class="nav-link"><a href="#" >Startup</a></li>
+				<li class="nav-link"><a href="#" >Coaching</a></li>
+				<li class="nav-link"><a href="#" >Ebook</a></li>
+				<li class="nav-link"><a href="#" >Library</a></li>
+				<li class="nav-link"><a href="#" >Contact</a></li>
+				<li class="nav-link"><a href="#" >Article</a></li>
+				
+				<li class="nav-img"><a href="https://twitter.com/" target="_blank"><img src="./Images/twitter-logo.png" /></a></li>
+				<li class="nav-img"><a href="https://web.facebook.com/" target="_blank"><img src="./Images/facebook.png"></a></li>
+				<li class="nav-img"><a href="https://www.youtube.com/" target="_blank"><img src="./Images/youtube-logo.png"></a></li>
+				<li class="nav-img"><a href="https://mail.google.com/mail" target="_blank"><img src="./Images/gmail-logo.png"></a></li>
+				<li class="nav-img"><a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./Images/instagram-logo.png"></a></li>
+ 			</ul>
+ 		</div>
+
+
+ 	</div>
+ </body>
+ </html>
+
+
+
+
+
+-----------------------------------------______________________________________________________________________________________________________________________
+
+
+
+
+#set{
+	max-width: 35px;
+	max-height: 35px;
+	position: fixed;
+	top: 30px;
+	left: 20px;
+	background-image: linear-gradient(grey,white,grey);
+	display: none;
+}
+#set:hover{
+	cursor: pointer;
+	background-image: linear-gradient(white,grey,white);
+
+}
+-----------------------------------------------------------------------------------------------------------
+#navi-bar{
+	display: none;
+}
+.navi-bar ul{
+	display: inline;
+	list-style-type: none;
+	background-color: #333;
+}
+#nav-area li{
+	display: inline;
+}
+
+#nav-area a{
+	text-decoration: none;
+	color: grey
+}
+
+.nav-link
+
+.nav-img img{
+	max-width: 20px;
+	max-height: 20px;
+	border-radius: 40%;
+}
+
+
+
+
+______________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+$(document).ready(function(){
+function fun()
+{
+
+	console.log("test----",document.getElementById('navi-bar').style.display)
+	if (document.getElementById('navi-bar').style.display == "" || document.getElementById('navi-bar').style.display == "none")
+	{
+		document.getElementById('navi-bar').style.display = "block";
+	}
+	else if (document.getElementById('navi-bar').style.display == "block")
+	{
+		document.getElementById('navi-bar').style.display = "none";
+	}
+}
+})
+
+
+

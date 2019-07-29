@@ -1,0 +1,67 @@
+body{
+	background-image: url('./Images/cube.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	color: black;
+}
+#change{
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+}
+#change{
+  transform: skewX(20deg);
+
+}
+#change::before, ::after {
+
+    box-sizing: inherit;
+
+}
+#fun1:hover {
+	background-color: #111;
+	color: white;
+}
+#but{
+  
+  transform: skewX(10deg);
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+  position: relative;
+  height: 300px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  /* drop the height to have a constant angle for all screen widths */
+}
+

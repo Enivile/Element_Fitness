@@ -1,0 +1,25 @@
+To create a textfield in the doc
+<input type="text" name"----">
+
+
+
+HTML/JAVASCRIPT
+
+innerHTML = "------- --------"
+to change content in an element.
+
+src = "--------"
+to change the src of an element
+
+style.font = "---------"
+to change any style of an element
+
+document.write(---------)
+to write anything in the doc/page
+
+window.alert(--------------)
+an alert bax will show up before the site loads with ur text
+
+isNaN(...var...)
+to find out that the value is a no. or not.
+
